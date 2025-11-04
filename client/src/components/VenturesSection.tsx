@@ -3,7 +3,7 @@ import { motion, useInView, useReducedMotion } from 'framer-motion';
 import { Card } from '@/components/ui/card';
 import { ChevronDown } from 'lucide-react';
 import spudBlocksLogo from '@assets/Spud Blocks Only Logo Color Full_1762234458919.png';
-import spudpay from 'G:\SAGA_LAB\3rdProject\Prfv2\attached_assets\spudpay.jpg'; 
+import spudpay from '../../../attached_assets/spudpay.jpg';
 import arcaneLogo from '@assets/Black and White Modern Streetwear Sport Logo_1762234382168.png';
 import ascendexLogo from '@assets/photo_2022-12-27_08-08-25 (1)_1762234436801.jpg';
 import agtLogo from '@assets/487989397_122221850360195791_7773183041984101712_n_1762234357260.jpg';
@@ -31,9 +31,7 @@ const ventures = [
     name: 'AscendEX',
     role: 'Board Member',
     period: '2024 - Present',
-    description:
-      'AscendEX (formerly known as BitMax) is a global cryptocurrency exchange platform that offers a comprehensive suite of financial services for both retail and institutional clients. Founded in 2018 by a group of Wall Street quantitative trading veterans, it is headquartered in Singapore and known for integrating centralized exchange features with elements from the decentralized finance (DeFi) ecosystem. 
-',
+    description: `AscendEX (formerly known as BitMax) is a global cryptocurrency exchange platform that offers a comprehensive suite of financial services for both retail and institutional clients. Founded in 2018 by a group of Wall Street quantitative trading veterans, it is headquartered in Singapore and known for integrating centralized exchange features with elements from the decentralized finance (DeFi) ecosystem.`,
     logo: ascendexLogo,
     gradient: 'from-chart-4 to-primary',
   },
@@ -50,10 +48,7 @@ const ventures = [
     name: 'SpudBlocks',
     role: 'CEO',
     period: '2018 - 2024',
-    description:
-      'SpudBlocks is a dynamic team of tech enthusiasts and seasoned professionals specializing in the blockchain and cryptocurrency sectors. Our mission is to facilitate the advancement of businesses, irrespective of their scale, by leveraging the potential of the web3 landscape. By harnessing pioneering strategies and state-of-the-art technology, we arecommitted to delivering unparalleled solutions that empower our clients to surpass their objectives and foster continuous development.
-
-',
+    description: `SpudBlocks is a dynamic team of tech enthusiasts and seasoned professionals specializing in the blockchain and cryptocurrency sectors. Our mission is to facilitate the advancement of businesses, irrespective of their scale, by leveraging the potential of the web3 landscape. By harnessing pioneering strategies and state-of-the-art technology, we are committed to delivering unparalleled solutions that empower our clients to surpass their objectives and foster continuous development.`,
     logo: spudBlocksLogo,
     gradient: 'from-chart-2 to-chart-3',
   },

@@ -8,6 +8,13 @@ const companies = [
   'Tapbit',
   'Gate.io',
   'AscendEX',
+  'Bitrue',
+  'Probit',
+  'BitForex',
+  'Plutusfi',
+  'Kesef Finance',
+  'Goose Finance',
+
 ];
 
 export default function TrustedBySection() {
